@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cats 😻</title>
+    <link rel="icon" href="Screenshot 2020-12-27 at 10.40.01 AM.png" />
+  </head>
+  <body>
+      <div class="content">
+        <span style="color: #b75b4e">
+        <h1>
+      I LOVE CATS
+        </h1>
+    <hr />
+    <img
+src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/001/682/original/IMG_3455.JPG?1595468723"> 
+  
+</img>  
+<hr />
+    <p>
+      Meet Nala. She is one of my two cats. We call her Nan for
+      <br>
+      short. She is a green-eyed tabby & she is very friendly. 
+      <br>
+      Whenever I am feeling sad, I cuddle my cat & it always
+      <br>
+      makes me feel better. We rescued her from a neglected home &
+      <br>
+      she's now living a happy life. Cats, just like dogs, can help 
+      <br>
+      uplift moods, & I really hope you consider getting a furry
+      <br>
+      friend of your own.
+    </p>
+    <a
+      href="https://en.wikipedia.org/wiki/Cat"
+      target="_blank"
+      class="learnWikipedia"
+    >
+      LEARN MORE ABOUT CATS ON WIKIPEDIA
+    </a>
+    <br />
+    <button>
+<a 
+href="https://www.petfinder.com/search/cats-for-adoption/ca/ontario/richmond-hill/"
+target="_blank"
+class="clickButton"
+>
+      ADOPT A CAT!
+      </a>
+    </button>
+</div>
+</body>
+<script>
+  
+          let name = prompt("What is your name? 🤔");{
+          let welcome = "👋 Welcome, " + name + "!";
+          alert (welcome);
+          }
+          function button() {
+        let cat = prompt("Are you planning on getting a pet?");
+        let heading = document.querySelector("h1");
+        if (cat === "yes") {
+          heading.innerHTML =
+            "😻<br />I hope you have fun with your new furry friend!";
+        } else {
+          heading.innerHTML =
+        "I LOVE CATS"
+        }
+      }
+
+      let changeButton = document.querySelector("button");
+      changeButton.addEventListener("click", button);
+
+</script>
+         
+<style>
+  
+  h1 {
+    font-size: 4em;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+  }
+  
+  img {
+    width: 460px;
+    display: block;
+    margin:auto ;
+    max-width: 100%;
+    padding: 20px;
+  }
+  
+  body {
+    background:linear-gradient( #eac1bb,white);
+  }
+  
+  p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: normal;
+    color: #b75b4e;
+  }
+
+  button {
+    padding: 30px;
+    font-size: 20px;
+    display: block;
+    margin: auto ;
+    box-shadow: 5px 5px 10px rgb(107, 100, 100);
+    background-color: #b75b4e;
+    border: #b75b4e;
+    border-radius: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+  }
+
+  .learnWikipedia { 
+    color: #b75b4e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .clickButton {
+    color: white;
+  }
+
+</style>
+</html> 
+
